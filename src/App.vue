@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <List-Ani></List-Ani>
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <!-- <List-Ani></List-Ani> -->
+    <list-animate></list-animate>
   </div>
 </template>
 
 <script>
-import ListAni from './components/ListAni.vue'
+// import ListAni from './components/ListAni.vue';
+import listAnimate from './components/ListAnimate.vue';
 
 export default {
   name: 'App',
   components: {
-    ListAni
+    // ListAni,
+    listAnimate
   }
 }
 </script>
